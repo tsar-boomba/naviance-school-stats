@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"composite": true,
+		"module": "ESNext",
+		"lib": ["WebWorker"],
+		"moduleResolution": "Node",
+		"allowSyntheticDefaultImports": true,
+		"isolatedModules": false
+	},
+	"include": ["src/sw.ts"]
+}
